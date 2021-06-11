@@ -34,7 +34,21 @@ public class OOP {
 		
 		
 //		Inheritence
+//		Truck toyota = new Truck();
+//		toyota.go();
+//		System.out.println(toyota.wheels);
 		
+		
+		// Method overriding
+//		Dog spike = new Dog();
+//		spike.speak();
+		
+		// Super keyword
+		Hero batman = new Hero("Batman", 44, "$$$");
+		Hero superman = new Hero("Superman", 33, "everything");
+		
+		System.out.println(batman.toString());
+		System.out.println(superman.toString());
 	}
 
 }
